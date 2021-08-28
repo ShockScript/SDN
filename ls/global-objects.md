@@ -4,6 +4,7 @@
 
 - The `Prt` function logs message to the debug console.
 - The `Rnd` function returns a randomic number. It can be optionally argumented with a range in the form `Rnd(FromN, ToN)`.
+- The `Flags` function does nothing. It is used as a decorator for determining flags enumerations.
 
 ## Collection
 

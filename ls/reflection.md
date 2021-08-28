@@ -6,4 +6,4 @@ A type may overload the equality operator. In that case it is useful to implemen
 
 ## Constructor
 
-`Reflect.Construct` may be used instead of `New T` where `T` is a dynamic reference.
+- `Reflect.Construct(t, argumentsList)` may be used instead of `New T` where `T` is a dynamic reference.

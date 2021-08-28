@@ -16,22 +16,10 @@ GreetFn "world"
 - `ClosureOf m` results in method reference.
 - Comparison `x <> y` is the reverse of `x = y`. `IsNot` and `Is` are equivalent operators.
 
-## Structure initializer
-
-If a structure (not a class) has no constructor and all members are public, object initializer may be used as an initializer.
+## Dictionary initializer
 
 ```
-Let o As New C {
-    SomeField = 10,
-    AnotherField = 10,
-}
-```
-
-Inferred syntax can be used:
-
-```
-Let o As C?
-o = {
+D = {
     SomeField = 10,
     AnotherField = 10,
 }
@@ -39,8 +27,8 @@ o = {
 
 ## Collection initializer
 
-Use the `#` character followed by curly braces (`{}`) to initialize a Collection:
+Use the `#` character followed by curly braces (`#{}`) to initialize a Collection:
 
 ```
-L = { E1, ...S, }
+L = #{ V1, ...S, }
 ```

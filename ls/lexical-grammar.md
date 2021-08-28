@@ -40,7 +40,6 @@ For
 Function
 Get
 GetType
-Global
 If
 Imp
 Implements

@@ -8,5 +8,5 @@
 ## Collection
 
 - Provide a generic Collection type and numeric Collection types such as LongCollection.
-- Collection types have Count property.
-- Collection types have Add, Append, Prepend, Remove, Shift, Pop, Filter, Map, Reduce, ReduceRight, Any and All methods.
+- Collection types have Count, FirstEl and LastEl properties.
+- Collection types have Add, Append, Prepend, Remove, Splice, Clear, Reverse, Shift, Pop, IndexOf, LastIndexOf, Slice, Find, Filter, Map, Reduce, ReduceRight, Any and All methods.
